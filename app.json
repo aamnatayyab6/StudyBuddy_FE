@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Study Buddy",
+    "slug": "Study_Buddy",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#CEC3A1"
+    },
+    "assetBundlePatterns": [
+      "**/*",
+      "src/assets/*",
+      "src/assets/images/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#CEC3A1"
+      },
+      "package": "com.Study_Buddy.studybuddy",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./src/assets/images/adaptive-icon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1e8cea99-0e50-4f21-94ab-fb19cdd8eb73"
+      }
+    }
+  }
+}

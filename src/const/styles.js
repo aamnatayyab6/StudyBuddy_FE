@@ -1,0 +1,203 @@
+import { StyleSheet } from "react-native";
+import COLORS from "./colors";
+
+export const styles = StyleSheet.create({
+  cardShadow: {
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 1,
+    elevation: 1,
+  },
+  messageCardShadow: {
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.2,
+    shadowRadius: 1,
+    elevation: 4,
+  },
+  Onboarding_slide_title: {
+    color: "#2D3339",
+    fontSize: 22,
+    marginTop: 46,
+    paddingTop: 40,
+    textAlign: "center",
+  },
+  Onboarding_slide_subtitle: {
+    fontSize: 16,
+    marginTop: 10,
+    padding: 10,
+    maxWidth: "90%",
+    textAlign: "center",
+    lineHeight: 23,
+    color: "#2D3339",
+  },
+  slider_indicator: {
+    height: 2.5,
+    width: 10,
+    marginHorizontal: 3,
+    borderRadius: 3,
+    backgroundColor: "#4C5760",
+  },
+  Onboarding_slide_btn: {
+    flex: 1,
+    height: 50,
+    borderRadius: 5,
+    backgroundColor: "#A59E8C",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  label: {
+    marginVertical: 5,
+    fontSize: 14,
+    color: COLORS["outer-space"],
+  },
+  inputContainer: {
+    height: 45,
+    backgroundColor: COLORS.bone,
+    borderWidth: 0.8,
+    flexDirection: "row",
+    paddingHorizontal: 15,
+    alignItems: "center",
+    borderRadius: 5,
+  },
+  loader_container: {
+    position: "absolute",
+    zIndex: 10,
+    backgroundColor: COLORS["dun"],
+    justifyContent: "center",
+  },
+  loader: {
+    height: 70,
+    backgroundColor: COLORS["alabaster"],
+    marginHorizontal: 50,
+    borderRadius: 5,
+    flexDirection: "row",
+    alignItems: "center",
+    paddingHorizontal: 20,
+  },
+  buttonTextStyle: {
+    color: COLORS["outer-space"],
+  },
+  StyledTextInput: {
+    fontSize: 14,
+    paddingLeft: 25,
+    paddingBottom: 4,
+    borderBottomWidth: 1,
+    borderColor: "#CDCDCD",
+    color: COLORS["gunmetal"],
+  },
+  LeftIcon: {
+    paddingBottom: 5,
+    top: 5,
+    position: "absolute",
+    zIndex: 1,
+  },
+  done_button: {
+    borderColor: COLORS["dun"],
+    backgroundColor: COLORS["dun"],
+    borderRadius: 5,
+    alignItems: "center",
+    justifyContent: "center",
+    height: 40,
+    width: 130,
+    paddingLeft: 35,
+    paddingTop: 6,
+    flex: 1,
+    elevation: 4,
+    fontWeight: "bold",
+    color: COLORS["outer-space"],
+    opacity: 0.7,
+  },
+  bottomDrawerSection: {
+    marginBottom: 15,
+    borderTopColor: COLORS["dun"],
+  },
+  paragraph: {
+    fontWeight: "bold",
+    marginRight: 3,
+  },
+  caption: {
+    fontSize: 14,
+    lineHeight: 14,
+  },
+  drawerSection: {
+    marginTop: 15,
+  },
+  preference: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+  },
+  customItemTextStyle: {
+    marginLeft: 33.5,
+    color: COLORS["battleship-gray"],
+    fontWeight: "bold",
+  },
+  customItemStyle: {
+    // padding: 0,
+    flexDirection: "row",
+    alignItems: "center",
+    marginLeft: 19,
+    marginTop: 15,
+  },
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  dropDownContainer: {
+    height: 40,
+    width: 200,
+  },
+  dropDownItem: {
+    justifyContent: "flex-start",
+  },
+  dropDown: {
+    backgroundColor: "#fafafa",
+  },
+  container: {
+    flex: 1,
+    backgroundColor: COLORS["alabaster"],
+  },
+  SenderContainer: {
+    backgroundColor: COLORS['dun'],
+    borderRadius: 8,
+    borderTopRightRadius: 0,
+    paddingHorizontal: 5,
+    paddingVertical: 3,
+    marginHorizontal: 3,
+    marginVertical: 2,
+    alignSelf: 'flex-start',
+    marginLeft: 'auto',
+  },
+  SentMessageText: {
+    color: COLORS['isabelline'],
+  },
+  ReceiverContainer: {
+    backgroundColor: COLORS['red-custom'],
+    borderRadius: 8,
+    borderTopRightRadius: 0,
+    paddingHorizontal: 5,
+    paddingVertical: 3,
+    marginHorizontal: 3,
+    marginVertical: 2,
+    alignSelf: 'flex-start',
+    marginLeft: 'auto',
+  },
+  ReceiverImage: {
+    height: 12,
+    width: 12,
+    borderRadius: '100%', // 9999px
+    position: 'absolute',
+    top: 0,
+    left: -14,
+  }
+});

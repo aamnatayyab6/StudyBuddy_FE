@@ -1,0 +1,37 @@
+module.exports = {
+  content: [
+    './src/views/screens/*.js',
+    './src/views/screens/**/*.js',
+    './src/views/components/*.js',
+    './src/const/styles/*.js',
+    './src/navigation/*.js',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'midnight': '#150728',
+        'twilight-custom': '#986fa9',
+        'gunmetal': '#2D3339',
+        'outer-space': '#4C5760',
+        'platinum-lite': '#d0dadc',
+        'platinum': '#c5d1d3',
+        'silver': '#b9c7ca',
+        'cadet-gray': '#93A8AC',
+        'dark': '#759095',
+        'pearl': '#D7CEB2',
+        'khaki': '#A59E8C',
+        'battleship-gray': '#827E73',
+        'dim-gray': '#66635B',
+        'dun': '#CEC3A1',
+        'alabaster': '#f1ede4',
+        'bone': '#E3DBC9',
+        'isabelline': '#F8F6F2',
+        'ecru': '#b9a779',
+        'red-custom': '#9e2219',
+        'coyote': '#877345',
+      },
+    },
+  },
+  plugins: [],
+  // corePlugins: require('tailwind-rn/unsupported-core-plugins'),
+}
