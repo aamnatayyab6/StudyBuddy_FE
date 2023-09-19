@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/aamnatayyab6/StudyBuddy_FE/blob/main/src/assets/images/sbicon.png" width="100" />
+  <img alt="Logo" src="https://github.com/aamnatayyab6/StudyBuddy_FE/blob/main/src/assets/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   StudyBuddy Mobile Application
