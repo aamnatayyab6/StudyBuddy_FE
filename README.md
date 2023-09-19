@@ -1,4 +1,12 @@
-# StudyBuddy Mobile Application [[Download] ](https://expo.dev/artifacts/eas/vViuPpBLUnVpN4jrGKQR4H.apk)
+<div align="center">
+  <img alt="Logo" src="https://github.com/aamnatayyab6/StudyBuddy_FE/blob/main/src/assets/images/sbicon.png" width="100" />
+</div>
+<h1 align="center">
+  StudyBuddy Mobile Application
+</h1>
+<br/>
+
+## Want to see it in action? You can find the APK [here](https://github.com/aamnatayyab6/StudyBuddy_FE/tree/main/apk)
 
 This is the implementation of the StudyBuddy Mobile Application Frontend developed using [ReactNative](https://reactnative.dev/docs/getting-started) and [Expo](https://docs.expo.dev/overview/). For backend implementation, you can check the backend [repository](https://github.com/mastertimisensei/StudyBuddyBE.git).
 For more information on StudyBuddy, the documentation is available [here](https://github.com/aamnatayyab6/ELTE-IK-Thesis/blob/main/Documentation.pdf).
