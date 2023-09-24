@@ -4,14 +4,14 @@
 <h1 align="center">
   StudyBuddy Mobile Application
 </h1>
-<br/>
+
+<p align="center">
+  This is the implementation of the StudyBuddy Mobile Application Frontend developed using <a href="https://reactnative.dev/docs/getting-started" target="_blank">React Native</a> and <a href="https://docs.expo.dev/overview/">Expo</a>. For backend implementation, you can check the backend <a href="https://github.com/mastertimisensei/StudyBuddyBE.git">repository</a> For more information on StudyBuddy, the documentation is available <a href="https://github.com/aamnatayyab6/ELTE-IK-Thesis/blob/main/Documentation.pdf">here</a>.
+</p>
 
 ![demo](./src/assets/images/demo.png)
 
 ## Want to see it in action? You can find the APK [here](https://github.com/aamnatayyab6/StudyBuddy_FE/tree/main/apk)
-
-This is the implementation of the StudyBuddy Mobile Application Frontend developed using [ReactNative](https://reactnative.dev/docs/getting-started) and [Expo](https://docs.expo.dev/overview/). For backend implementation, you can check the backend [repository](https://github.com/mastertimisensei/StudyBuddyBE.git).
-For more information on StudyBuddy, the documentation is available [here](https://github.com/aamnatayyab6/ELTE-IK-Thesis/blob/main/Documentation.pdf).
 
 # Getting Started
 
