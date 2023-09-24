@@ -6,6 +6,10 @@
 </h1>
 <br/>
 
+<div align="center">
+  <img alt="Demo" src="https://github.com/aamnatayyab6/StudyBuddy_FE/blob/main/src/assets/images/demo.png" width="375" height="181" />
+</div>
+
 ## Want to see it in action? You can find the APK [here](https://github.com/aamnatayyab6/StudyBuddy_FE/tree/main/apk)
 
 This is the implementation of the StudyBuddy Mobile Application Frontend developed using [ReactNative](https://reactnative.dev/docs/getting-started) and [Expo](https://docs.expo.dev/overview/). For backend implementation, you can check the backend [repository](https://github.com/mastertimisensei/StudyBuddyBE.git).
